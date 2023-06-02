@@ -5,14 +5,14 @@ from sqlalchemy import create_engine
 import pymysql
 
 # Python Connector database connection function
-def getconn():
+def getconn(user, password, database_name, connection_name):
     with Connector() as connector:
         conn = connector.connect(
-            "poolo-data-driven:us-central1:poolo-1", # Cloud SQL Instance Connection Name
+            connection_name, # Cloud SQL Instance Connection Name
             "pymysql",
-            user="appbi",
-            password="ticker-pledge-viking",
-            db="poolo-database",
+            user=user,
+            password=password,
+            db=database_name,
             ip_type= IPTypes.PUBLIC  # IPTypes.PRIVATE for private IP
         )
     return conn
