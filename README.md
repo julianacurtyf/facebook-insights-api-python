@@ -5,13 +5,14 @@
 The first thing to do is to clone the repository:
 
 ```sh
-$ git clone https://github.com/julianacurtyf/Electrotherapy.git
-$ cd Electrotherapy
+$ git clone https://github.com/julianacurtyf/facebook-insights-api-python.git
+$ cd facebook-insights-api-pytho
 ```
 
 Create a virtual environment to install dependencies in and activate it:
 
 ```sh
+$ pip install virtualenv
 $ virtualenv2 --no-site-packages env
 $ source env/bin/activate
 ```
@@ -24,12 +25,8 @@ Then install the dependencies:
 Note the `(env)` in front of the prompt. This indicates that this terminal
 session operates in a virtual environment set up by `virtualenv2`.
 
-Once `pip` has finished downloading the dependencies:
-```sh
-(env)$ cd project
-(env)$ python manage.py runserver
-```
-And navigate to `http://127.0.0.1:8000/`.
+
+
 
 ## Walkthrough
 
