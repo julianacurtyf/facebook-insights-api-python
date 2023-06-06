@@ -6,7 +6,7 @@ The first thing to do is to clone the repository:
 
 ```sh
 $ git clone https://github.com/julianacurtyf/facebook-insights-api-python.git
-$ cd facebook-insights-api-pytho
+$ cd facebook-insights-api-python
 ```
 
 Create a virtual environment to install dependencies in and activate it:
