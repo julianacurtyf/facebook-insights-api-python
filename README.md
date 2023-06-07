@@ -59,4 +59,4 @@ Obtain the following credentials:
 
 __7. Run the main.py.__
 
-With those informations in hand, it is now possible to r
+With those informations in hand, it is now possible to run the code main.py.
